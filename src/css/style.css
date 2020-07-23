@@ -1,0 +1,19 @@
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0;
+    font-weight: bold;
+}
+
+.inoutTable{
+    height: 40px;
+    width: 200px;
+}
+
+td{
+    height:50px;
+    width:50px;
+}
+
+
