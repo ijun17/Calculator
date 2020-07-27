@@ -9,7 +9,7 @@ function replaceFormula(formula2){ //×와 ÷를 코드상에서 수행되는 *�
     for(let i=0; i<formula.length; i++){
         if(formula[i]=="÷"){
             if(isSeqOpr==true){
-                formula="E";
+                return "E";
                 break;
             }
             isSeqOpr=true;
